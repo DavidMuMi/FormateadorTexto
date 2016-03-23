@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FormateadorDeTexto", "FormateadorDeTexto\FormateadorDeTexto.csproj", "{DDBEBA65-F208-46B1-B864-D706B47CC0EE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PublishScripts", "PublishScripts", "{8C52EC5B-AD2C-4B35-815A-A615D95CEB30}"
+	ProjectSection(SolutionItems) = preProject
+		PublishScripts\AzureVMPublishModule.psm1 = PublishScripts\AzureVMPublishModule.psm1
+		PublishScripts\Publish-WebApplicationVM.ps1 = PublishScripts\Publish-WebApplicationVM.ps1
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Configurations", "Configurations", "{DAE16A35-665E-498B-AF28-3A4497D867ED}"
+	ProjectSection(SolutionItems) = preProject
+		PublishScripts\Configurations\FormateadorDeTexto-WAWS-dev.json = PublishScripts\Configurations\FormateadorDeTexto-WAWS-dev.json
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DDBEBA65-F208-46B1-B864-D706B47CC0EE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DDBEBA65-F208-46B1-B864-D706B47CC0EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DDBEBA65-F208-46B1-B864-D706B47CC0EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DDBEBA65-F208-46B1-B864-D706B47CC0EE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{DAE16A35-665E-498B-AF28-3A4497D867ED} = {8C52EC5B-AD2C-4B35-815A-A615D95CEB30}
+	EndGlobalSection
+EndGlobal
