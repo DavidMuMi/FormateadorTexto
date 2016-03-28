@@ -181,7 +181,7 @@
     <Content Include="fonts\glyphicons-halflings-regular.eot" />
     <Content Include="Account\Web.config" />
     <Content Include="sample.txt" />
-    <Content Include="WebForm1.aspx" />
+    <Content Include="divisor_texto.aspx" />
     <None Include="Properties\PublishProfiles\FormateadorDeTexto.pubxml" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="Scripts\bootstrap.js" />
@@ -389,12 +389,12 @@
     <Compile Include="ViewSwitcher.ascx.designer.cs">
       <DependentUpon>ViewSwitcher.ascx</DependentUpon>
     </Compile>
-    <Compile Include="WebForm1.aspx.cs">
-      <DependentUpon>WebForm1.aspx</DependentUpon>
+    <Compile Include="divisor_texto.aspx.cs">
+      <DependentUpon>divisor_texto.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="WebForm1.aspx.designer.cs">
-      <DependentUpon>WebForm1.aspx</DependentUpon>
+    <Compile Include="divisor_texto.aspx.designer.cs">
+      <DependentUpon>divisor_texto.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
